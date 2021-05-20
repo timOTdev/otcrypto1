@@ -38,24 +38,17 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: underline;
   }
 `;
-
 const Wrapper = styled.div`
   text-align: center;
 `;
 
-export default function Page({ children }) {
+export default function Page({ data, children }) {
   return (
     <Wrapper>
       <GlobalStyles />
       <Header />
-      <h2>My Page</h2>
       {children}
       <Footer />
     </Wrapper>
   );
 }
-
-Page.propTypes = {
-  cool: PropTypes.string,
-  children: PropTypes.any,
-};

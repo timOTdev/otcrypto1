@@ -26,5 +26,12 @@ export default function globals() {
     },
   };
 
-  return { socials };
+  const videos = {
+    intro: {
+      url: 'https://youtu.be/kqL5278Ed1Q',
+      embed: 'https://www.youtube.com/embed/kqL5278Ed1Q',
+    },
+  };
+
+  return { socials, videos };
 }
