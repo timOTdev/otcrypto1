@@ -18,7 +18,6 @@ const InnerWrapper = styled.div`
   padding: 2rem 0;
 `;
 const FooterText = styled.div`
-  font-size: 2rem;
   width: 50%;
   margin: 0 auto;
   padding: 2rem 0;
@@ -28,16 +27,18 @@ const FooterText = styled.div`
 export default function Footer() {
   return (
     <Wrapper>
-      <FooterText>
-        Owl Tactics Crypto does not provide financial advice. The financial
-        opinions expressed are for information purposes only.&nbsp; Please seek
-        professional counsel for your financial imperatives. <br />
-      </FooterText>
       <InnerWrapper>
         <SocialsNav />
         <SiteNav />
       </InnerWrapper>
-      <FooterText>Updated May {new Date().getFullYear()}</FooterText>
+      <FooterText>
+        Owl Tactics Crypto does not provide financial advice. <br />
+        The financial opinions expressed are for information purposes only.{' '}
+        <br />
+        Please seek professional counsel for your financial imperatives.
+        <br />
+        Owl Tactics Crypto © May {new Date().getFullYear()}
+      </FooterText>
     </Wrapper>
   );
 }

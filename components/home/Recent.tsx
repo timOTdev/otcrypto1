@@ -2,13 +2,16 @@ import styled from 'styled-components';
 import globals from '../../data/index';
 
 const Section = styled.section`
-  padding: 2rem 0;
+  padding: 5rem 0;
   text-align: center;
-  background: rgb(128, 128, 233);
+  background: var(--lightBrown);
   background: linear-gradient(
     0deg,
-    rgba(128, 128, 233, 1) 0%,
-    rgba(73, 127, 255, 1) 100%
+    rgb(220, 194, 168, 1) 0%,
+    rgb(105, 77, 60, 1) 30%,
+    rgb(28, 31, 33, 0.25) 50%,
+    rgb(105, 77, 60, 1) 70%,
+    rgb(220, 194, 168, 1) 100%
   );
   display: flex;
   flex-direction: column;
@@ -34,22 +37,21 @@ const Title = styled.p`
 const Description = styled.p``;
 const Expand = styled.div`
   text-align: center;
-  margin: 2rem 0;
+  margin: 3rem 0;
 `;
 const Button = styled.button`
   border: 2px solid black;
-  border-radius: 3px;
+  border-radius: 5px;
   color: white;
   padding: 10px;
-  width: 120px;
-  background: #555bfb;
+  background: var(--darkBrown);
   transition: ease all 0.5s;
   &:hover {
     cursor: pointer;
-    background: white;
-    color: #555bfb;
+    background: var(--lightBrown);
+    color: var(--grey);
     border: 2px solid black;
-    box-shadow: 0 0 20px #5454ff;
+    box-shadow: 0 0 20px var(--darkBrown);
   }
 `;
 
@@ -76,7 +78,7 @@ const Recent = (data) => {
                 <Title>{video.snippet.title}</Title>
               </Target>
               <Description>
-                {video.snippet.description.substr(0, 300)}
+                {video.snippet.description.substr(14, 300)}
               </Description>
             </Info>
           </div>
