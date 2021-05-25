@@ -51,19 +51,19 @@ export default function SocialsNav() {
   return (
     <Section>
       <a href={socials.discord.url} target='_blank'>
-        <Discord size={40} title={socials.discord.alt} />
+        <Discord size={30} title={socials.discord.alt} />
       </a>
       <a href={socials.youtube.url} target='_blank'>
-        <Youtube size={40} title={socials.youtube.alt} />
+        <Youtube size={30} title={socials.youtube.alt} />
       </a>
       <a href={socials.twitter.url} target='_blank'>
-        <Twitter size={40} title={socials.twitter.alt} />
+        <Twitter size={30} title={socials.twitter.alt} />
       </a>
       <a href={socials.instagram.url} target='_blank'>
-        <Instagram size={40} title={socials.instagram.alt} />
+        <Instagram size={30} title={socials.instagram.alt} />
       </a>
       <a href={socials.email.url} target='_blank'>
-        <Email size={40} title={socials.email.alt} />
+        <Email size={30} title={socials.email.alt} />
       </a>
     </Section>
   );

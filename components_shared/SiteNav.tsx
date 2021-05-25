@@ -1,13 +1,19 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-import { FcHome, FcRating, FcConferenceCall, FcWorkflow } from 'react-icons/fc';
+import {
+  FcHome,
+  FcStatistics,
+  FcRating,
+  FcConferenceCall,
+  FcWorkflow,
+} from 'react-icons/fc';
 
 const Section = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 30%;
-  font-size: 2rem;
+  width: 35%;
+  font-size: 1.6rem;
   span:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -23,16 +29,22 @@ export default function SiteNav() {
           &nbsp;Home
         </span>
       </Link>
-      <Link href='/about'>
+      <Link href='/learn'>
         <span>
-          <FcConferenceCall />
-          &nbsp;About
+          <FcStatistics />
+          &nbsp;Learn
         </span>
       </Link>
       <Link href='/deals'>
         <span>
           <FcRating />
           &nbsp;Deals
+        </span>
+      </Link>
+      <Link href='/about'>
+        <span>
+          <FcConferenceCall />
+          &nbsp;About
         </span>
       </Link>
       <Link href='/links'>
