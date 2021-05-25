@@ -6,7 +6,7 @@ import SiteNav from '../components_shared/SiteNav.tsx';
 import SocialsNav from '../components_shared/SocialsNav.tsx';
 
 const Wrapper = styled.section`
-  background: var(--pageHeaderColor);
+  background: var(--headerFooterColor);
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;

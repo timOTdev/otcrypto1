@@ -6,8 +6,8 @@ const Main = styled.main`
 const H1 = styled.h1`
   font-family: 'Yashi';
   font-weight: 400;
-  color: var(--darkBrown);
-  text-shadow: 1px 4px 2px var(--lightBrown);
+  color: var(--titleText);
+  text-shadow: var(--titleTextShadow);
   font-size: 6rem;
   margin: 0;
 `;

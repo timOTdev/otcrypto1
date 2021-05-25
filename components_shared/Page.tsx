@@ -9,11 +9,20 @@ const GlobalStyles = createGlobalStyle`
   html {
     --grey: #3A3A3A;
     --gray: var(--grey);
-    --pageHeaderColor: #1c1f21;
-    --pageContentColor: #252525;
-    --pageFontColor: #eeeeee;
-    --lightBrown: #dcc2a8;
-    --darkBrown: #694d3c;
+    --darkGrey: #1c1f21;
+    --lightGrey:#252525;
+    --almond: #E8D6C5;
+    --desert: #dcc2a8;
+    --chestnut: #8E6952;
+    --cafe: #A67D64;
+    --coffee: #694d3c;
+    --horses: #4E3A2D;
+    --bistre: #413025;
+    --headerFooterColor: var(--bistre);
+    --pageContentColor: var(--horses);
+    --pageFontColor: var(--desert);
+    --titleText: var(--chestnut);
+    --titleTextShadow: 1px 3px 5px var(--lightGrey);
     --maxWidth: 1000px;
     --yashi: 'Yashi', serif;
     --comfortaaL: "Comfortaa-Light", sans-serif;
@@ -39,12 +48,30 @@ const GlobalStyles = createGlobalStyle`
   h3 { font-size: 2rem; }
   button {
     font-family: var(--comfortaaR);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background: var(--desert);
+    color: var(--darkGrey);
+    transition: ease all 0.5s;
+    &:hover {
+      cursor: pointer;
+      background: var(--almond);
+      color: var(--lightGrey);
+      border: 2px solid black;
+      box-shadow: 0 0 10px var(--desert);
+    }
   }
   a {
-    color: var(---grey);
-  }
-  a:hover {
-    text-decoration: underline;
+    color: var(--desert);
+    &:focus, &:hover, &:visited, &:link, &:active {
+      text-decoration: none;
+    }
+    &:hover {
+      background: var(--almond);
+      color: var(--almond);
+      text-shadow: 0 0 10px var(--desert);
+    };
   }
   @font-face {
     font-family: "Yashi";
