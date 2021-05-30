@@ -1,3 +1,4 @@
+import '../public/static/empty.css';
 // @ts-ignore
 import Page from '../components_shared/Page.tsx';
 
