@@ -62,17 +62,6 @@ const GlobalStyles = createGlobalStyle`
       box-shadow: 0 0 10px var(--desert);
     }
   }
-  a {
-    color: var(--desert);
-    &:focus, &:hover, &:visited, &:link, &:active {
-      text-decoration: none;
-    }
-    &:hover {
-      background: var(--almond);
-      color: var(--almond);
-      text-shadow: 0 0 10px var(--desert);
-    };
-  }
   @font-face {
     font-family: "Yashi";
     src: url("/fonts/Yashi/Yashi-Regular.otf");

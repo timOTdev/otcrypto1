@@ -13,10 +13,10 @@ const Section = styled.section`
   justify-content: space-around;
   align-items: center;
   width: 30%;
-  a {
-    &:hover {
-      transform: scale(1.2);
-    }
+`;
+const A = styled.a`
+  &:hover {
+    transform: scale(1.2);
   }
 `;
 const Discord = styled(FaDiscord)`
@@ -50,21 +50,21 @@ export default function SocialsNav() {
   const { socials } = globals();
   return (
     <Section>
-      <a href={socials.discord.url} target='_blank'>
+      <A href={socials.discord.url} target='_blank'>
         <Discord size={30} title={socials.discord.alt} />
-      </a>
-      <a href={socials.youtube.url} target='_blank'>
+      </A>
+      <A href={socials.youtube.url} target='_blank'>
         <Youtube size={30} title={socials.youtube.alt} />
-      </a>
-      <a href={socials.twitter.url} target='_blank'>
+      </A>
+      <A href={socials.twitter.url} target='_blank'>
         <Twitter size={30} title={socials.twitter.alt} />
-      </a>
-      <a href={socials.instagram.url} target='_blank'>
+      </A>
+      <A href={socials.instagram.url} target='_blank'>
         <Instagram size={30} title={socials.instagram.alt} />
-      </a>
-      <a href={socials.email.url} target='_blank'>
+      </A>
+      <A href={socials.email.url} target='_blank'>
         <Email size={30} title={socials.email.alt} />
-      </a>
+      </A>
     </Section>
   );
 }

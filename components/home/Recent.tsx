@@ -38,6 +38,21 @@ const Description = styled.p``;
 const Expand = styled.div`
   text-align: center;
   margin: 3rem 0;
+  a {
+    color: var(--desert);
+    &:focus,
+    &:hover,
+    &:visited,
+    &:link,
+    &:active {
+      text-decoration: none;
+    }
+    &:hover {
+      background: var(--almond);
+      color: var(--almond);
+      text-shadow: 0 0 10px var(--desert);
+    }
+  }
 `;
 
 const Recent = (data) => {
