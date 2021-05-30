@@ -5,6 +5,11 @@ import Learn from '../components/home/Learn';
 import Recent from '../components/home/Recent';
 import Discord from '../components/home/Discord';
 // import { data } from '../data/youtubeAPI';
+import styled from 'styled-components';
+
+const Main = styled.main`
+  margin: 3rem 0;
+`;
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   // const isTestEnvironment = process.env.IS_TEST_ENVIRONMENT;
@@ -20,12 +25,12 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
 export default function home({ data }) {
   return (
-    <div>
+    <Main>
       <Announcements />
       <Banner />
       <Learn />
       <Recent data={data} />
       <Discord />
-    </div>
+    </Main>
   );
 }

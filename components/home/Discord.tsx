@@ -10,7 +10,6 @@ const Main = styled.main`
   );
 `;
 const Section = styled.section`
-  padding: 5rem 0;
   width: 30%;
   margin: 0 auto;
   text-align: center;
@@ -35,7 +34,6 @@ const Ul = styled.ul`
 `;
 const Expand = styled.div`
   text-align: center;
-  margin: 3rem 0;
   a {
     color: var(--desert);
     &:focus,
