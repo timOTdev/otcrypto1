@@ -103,5 +103,115 @@ export default function globals() {
     },
   ];
 
-  return { socials, videos, deals };
+  const links = {
+    courses: {
+      description: 'Free courses you can take to learn about crypto.',
+      links: [
+        {
+          name: 'Bitcoin or How I Learned to Stop Worrying and Love Crypto (Charles Hoskinson, Brian Goss)',
+          link: 'https://www.udemy.com/course/bitcoin-or-how-i-learned-to-stop-worrying-and-love-crypto/',
+        },
+        {
+          name: 'Blockchain and Money MIT Course (Gary Gensler)',
+          link: 'https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/index.htm',
+        },
+        {
+          name: 'Saylor Academy: Bitcoin for Everybody',
+          link: 'https://learn.saylor.org/course/view.php?id=468',
+        },
+        {
+          name: 'Bitcoin and Cryptocurrency Technologies Princeton Course (Arvind Narayanan)',
+          link: 'https://www.coursera.org/learn/cryptocurrency',
+        },
+      ],
+    },
+    websites: {
+      description:
+        'Great sites to learn more about cryptocurrency fundamentals.',
+      links: [
+        {
+          name: 'Bitcoin is Hope',
+          link: 'https://www.hope.com/',
+        },
+        {
+          name: 'Bitcoin Only',
+          link: 'https://bitcoin-only.com/',
+        },
+        {
+          name: 'Accointing.com General Tax Guide',
+          link: 'https://www.accointing.com/guide',
+        },
+        {
+          name: 'Accointing.com USA Tax Guide',
+          link: 'https://www.accointing.com/crypto-tax-guide/us',
+        },
+        {
+          name: 'Decrypt Learn',
+          link: 'https://decrypt.co/learn',
+        },
+        {
+          name: 'CoinMarketCap Alexandria Learning',
+          link: 'https://coinmarketcap.com/alexandria/',
+        },
+        {
+          name: 'Binance Academy',
+          link: 'https://academy.binance.cc/en',
+        },
+        {
+          name: 'Shrimpy Academy',
+          link: 'https://academy.shrimpy.io/',
+        },
+        {
+          name: 'Cointelegraph Explained',
+          link: 'https://cointelegraph.com/explained',
+        },
+        {
+          name: 'Gemini Cryptopedia',
+          link: 'https://www.gemini.com/cryptopedia',
+        },
+        {
+          name: 'Master the Crypto',
+          link: 'https://masterthecrypto.com/',
+        },
+      ],
+    },
+    youtube: {
+      description:
+        'Channels I like to follow that provide news or knowledge I can put to use.',
+      links: [
+        {
+          name: 'Coin Bureau',
+          link: 'https://www.youtube.com/c/CoinBureau',
+        },
+        {
+          name: 'InvestAnswers',
+          link: 'https://www.youtube.com/c/InvestAnswers',
+        },
+        {
+          name: 'Token Metrics',
+          link: 'https://www.youtube.com/c/TokenMetrics',
+        },
+        {
+          name: 'Hashoshi',
+          link: 'https://www.youtube.com/c/Hashoshi4',
+        },
+      ],
+    },
+    earn: {
+      description:
+        'Sites and services that you can earn free coins for learning about them. Currently worth a couple bucks, but could be more in the future!',
+      links: [
+        {
+          name: 'CoinMarketCap Earn',
+          link: 'https://coinmarketcap.com/earn/',
+        },
+        {
+          name: 'Coinbase',
+          link: 'https://www.coinbase.com/join/hoang_99',
+        },
+      ],
+    },
+  };
+
+  return { socials, videos, learn, deals, links };
 }
