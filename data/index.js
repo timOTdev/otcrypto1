@@ -33,6 +33,27 @@ export default function globals() {
     },
   };
 
+  const learn = {
+    introduction: [
+      {
+        name: '7 Cases for Blockchain, DeFi, Cryptocurrency in 2021',
+        description:
+          "Blockchain is a revolutionary technology in my belief. It has created disruption within the traditional finance arena (CeFi) and made us rethink fiat currency. We're going into how the rise of this technology elevated so quickly due to reasons such as inflation, manipulation, and other events. Clearly, the finance space is ripe for change as the system has gate-kept unprivileged people for so long and the government clearly has no intention of stopping the printing press for the dollar. Let's take a look at the reasons why I believe more in DeFi over CeFi.",
+        link: 'https://www.youtube.com/embed/bKHZiC2esrk',
+      },
+      {
+        name: 'How to buy Cryptoassets',
+        description: 'In Progress',
+        link: '',
+      },
+      {
+        name: 'Cryptoasset Management Strategies',
+        description: 'In Progress',
+        link: '',
+      },
+    ],
+  };
+
   const deals = [
     {
       name: 'Celsius Network',
