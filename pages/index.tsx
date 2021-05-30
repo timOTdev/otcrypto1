@@ -24,7 +24,7 @@ export default function home({ data }) {
       <Announcements />
       <Banner />
       <Learn />
-      <Recent {...data} />
+      <Recent data={data} />
       <Discord />
     </div>
   );

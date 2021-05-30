@@ -13,6 +13,21 @@ const Section = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  a {
+    color: var(--desert);
+    &:focus,
+    &:hover,
+    &:visited,
+    &:link,
+    &:active {
+      text-decoration: none;
+    }
+    &:hover {
+      background: var(--almond);
+      color: var(--almond);
+      text-shadow: 0 0 10px var(--desert);
+    }
+  }
 `;
 const Videos = styled.div`
   width: 90%;
@@ -38,29 +53,14 @@ const Description = styled.p``;
 const Expand = styled.div`
   text-align: center;
   margin: 3rem 0;
-  a {
-    color: var(--desert);
-    &:focus,
-    &:hover,
-    &:visited,
-    &:link,
-    &:active {
-      text-decoration: none;
-    }
-    &:hover {
-      background: var(--almond);
-      color: var(--almond);
-      text-shadow: 0 0 10px var(--desert);
-    }
-  }
 `;
 
-const Recent = (data) => {
+const Recent = ({ data }) => {
   return (
     <Section>
       <h1>Recent Videos</h1>
       <Videos>
-        {data.items.map((video) => (
+        {data.map((video) => (
           <div key={video.id.videoId}>
             <IFrame
               width='400'
