@@ -3,7 +3,7 @@ import globals from '../data/index';
 
 const Main = styled.main`
   width: 60%;
-  margin: 3rem auto;
+  margin: 0 auto;
 `;
 const Deals = styled.section`
   width: 60%;
