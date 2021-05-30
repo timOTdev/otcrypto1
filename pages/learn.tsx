@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import globals from '../data/index';
+import { FcAbout } from 'react-icons/fc';
 
 const Main = styled.main`
   h1 {
@@ -52,7 +53,9 @@ export default function learn() {
         Please reach out to me on discord for any questions and corrections.
       </p>
       <Section>
-        <h2>1.0 Introduction</h2>
+        <h2>
+          <FcAbout /> Introduction
+        </h2>
         <hr />
         {learn.introduction.map((item, index) => (
           <Aside key={item.name}>
