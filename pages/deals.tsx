@@ -4,6 +4,14 @@ import globals from '../data/index';
 const Main = styled.main`
   width: 60%;
   margin: 0 auto;
+  h1 {
+    font-family: 'Yashi';
+    font-weight: 400;
+    color: var(--titleText);
+    text-shadow: var(--titleTextShadow);
+    font-size: 6rem;
+    margin: 0;
+  }
 `;
 const Deals = styled.section`
   width: 60%;
