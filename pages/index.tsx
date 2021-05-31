@@ -24,7 +24,7 @@ export default function home({ data }) {
       <Announcements />
       <Banner />
       <Learn />
-      <Recent data={data} />
+      <Recent {...data} />
       <Discord />
     </main>
   );

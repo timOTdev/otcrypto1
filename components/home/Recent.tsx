@@ -55,12 +55,12 @@ const Expand = styled.div`
   margin: 3rem 0;
 `;
 
-const Recent = ({ data }) => {
+const Recent = ({ items }) => {
   return (
     <Section>
       <h1>Recent Videos</h1>
       <Videos>
-        {data.map((video) => (
+        {items.map((video) => (
           <div key={video.id.videoId}>
             <IFrame
               width='400'
