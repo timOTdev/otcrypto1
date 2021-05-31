@@ -103,6 +103,12 @@ export default function globals() {
     },
   ];
 
+  const about = [
+    "I only got better at finance when I decided to work on it. I didn't get it from my family or from school. I wasn't blessed with meeting the right people or winning the lottery. I became more competent because I chose to build a relationship and respect for money. I put in a tremendous amount of time trying destruct to the financial system so I can achieve financial independence. I created this brand so that I can help motivate and help others understand their financial landscape. The brand keeps me accountable to keep learning and sharing.",
+    "Finances seems like a huge beast at first but if you break it down and learn piece by piece, the big picture will come together, I promise. There's no one perfect strategy, the perfect strategy is one that works for you and your situation. Your money is your responsibility and no one knows how to handle it better than you. There's always risk and reward in every action, study well. However, you can rest assure that we are experiencing a major disruption in the financial sector. I'm happy that power is returning back to the people where it belongs. With that, let's push forward towards one of the brightest futures I've seen in a long time.",
+    "I am personally inviting you to explore DeFi and connect with me. Please find me on Discord and let's having meaningful conversations. Cheers.",
+  ];
+
   const links = {
     courses: {
       description: 'Free courses you can take to learn about crypto.',
@@ -213,5 +219,5 @@ export default function globals() {
     },
   };
 
-  return { socials, videos, learn, deals, links };
+  return { socials, videos, learn, deals, about, links };
 }
