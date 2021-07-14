@@ -36,15 +36,22 @@ export default function globals() {
   const learn = {
     introduction: [
       {
+        name: 'A Bright Crypto Future June 2021 (TEC Presentation)',
+        description:
+          'I gave a presentation about cryptocurrencies with a broad look beyond blockchain development including the crypto markets, other technologies, and opportunities in the space. This talk was a part of a demo day presentation with a course called Emerging Technologies: Blockchain from Tecnológico de Monterrey Campus Monterrey. Students present their projects after having worked with Solidity development. This short talk gave them a soft introduction to the cryptocurrency space. ',
+        link: 'https://youtu.be/wVxxaNoyzys',
+      },
+      {
         name: '7 Cases for Blockchain, DeFi, Cryptocurrency in 2021',
         description:
           "Blockchain is a revolutionary technology in my belief. It has created disruption within the traditional finance arena (CeFi) and made us rethink fiat currency. We're going into how the rise of this technology elevated so quickly due to reasons such as inflation, manipulation, and other events. Clearly, the finance space is ripe for change as the system has gate-kept unprivileged people for so long and the government clearly has no intention of stopping the printing press for the dollar. Let's take a look at the reasons why I believe more in DeFi over CeFi.",
-        link: 'https://www.youtube.com/embed/bKHZiC2esrk',
+        link: 'https://youtu.be/bKHZiC2esrk',
       },
       {
-        name: 'How to buy Cryptoassets',
-        description: 'In Progress',
-        link: '',
+        name: 'How to Buy Cryptoassets',
+        description:
+          "The biggest question I get is how do I get started in cryptocurrency. There's confusion about where to deposit your dollars, how to buy cryptocurrencies and good starting platforms. In this video, I cover the fiat and crypto aspects of buying. The video also covers key concepts that you should know when doing exchanges in the cryptocurrency space. I'll also give you a brief glimpse of the platforms I like to use and give you the pros and cons of each.",
+        link: 'https://youtu.be/DMaKMFybrBI',
       },
       {
         name: 'Cryptoasset Management Strategies',
@@ -64,6 +71,14 @@ export default function globals() {
       link: 'https://celsiusnetwork.app.link/15442521ce',
     },
     {
+      name: 'Ftx.us',
+      description:
+        "My preferred platform for on-ramping US fiat dollars. This is a new favorite of mine that replaces crypto.com as a fiat onramp. The main reason I like this platform is being able to use Plaid to link to my Charles Schwab bank account and doing ACH transfer. The ACH deposit fees are practically free ($0.50). The trade fees are more competitive than Coinbase (Tier 1 = Maker 0.1% and Taker 0.4%). It's easy to use and you can get many crypto coins on here. The crypto transfer fees are also attractive. Solana coin is also on here and FTX is partnered with them, that's all enough reason for me. They are working on the FTX VISA debit card at the time of this writing so you can spend your earnings!",
+      offer:
+        'When users sign up with the affiliate link, they will receive a 5.00% fee discount all their trades and the referrer will receive 30.00% of their trading fees.',
+      link: 'https://ftx.us/#a=7696435',
+    },
+    {
       name: 'Gate.io',
       description:
         "My current preferred trading platform. Binance.com and Binance.US is not available to Texas, USA. This is the next best thing if you're looking for huge amounts of coin offerings and more technical trading beyond Coinbase Pro or Crypto.com. This is not recommended for the crypto initiate.",
@@ -74,7 +89,7 @@ export default function globals() {
     {
       name: 'Crypto.com',
       description:
-        'My current crypto card and preferred fiat on-ramp platform. This 2% crypto rewards card in CRO was less complicated than other cards and helps convert my fiat to crypto. If you get the Ruby card, you also get free Spotify ($14 value). I will update this if I come across a better card.',
+        "My current crypto visa debit card provider and alternative fiat on-ramp platform to ftx.us. This 2% crypto rewards card in CRO was less complicated than other cards and helps convert my fiat to crypto. If you get the Ruby card, you also get free Spotify ($14 value). I will update this if I come across a better card. Their ecosystem is gimmicky but they have tons of partnerships if you look in the news. Their coins are also marked up so it's a great place to sell from another exchange for extra profit!",
       offer:
         'Sign up for Crypto.com Ruby card or above and we both get $25 USD in CRO.',
       link: 'https://crypto.com/app/9zqwdpcces',
@@ -104,7 +119,7 @@ export default function globals() {
   ];
 
   const about = [
-    "I only got better at finance when I decided to work on it. I didn't get it from my family or from school. I wasn't blessed with meeting the right people or winning the lottery. I became more competent because I chose to build a relationship and respect for money. I put in a tremendous amount of time trying destruct to the financial system so I can achieve financial independence. I created this brand so that I can help motivate and help others understand their financial landscape. The brand keeps me accountable to keep learning and sharing.",
+    "I only got better at finance when I decided to work on it. I didn't get it from my family or from school. I wasn't blessed with meeting the right people or any huge inheritance. I became more competent because I chose to build a relationship and respect for money. I put in a tremendous amount of time trying destructure to the financial system so I can achieve my financial independence. I created this brand so that I can help and motivate others understand their own financial landscape. The brand keeps me accountable to keep learning and sharing.",
     "Finances seems like a huge beast at first but if you break it down and learn piece by piece, the big picture will come together, I promise. There's no one perfect strategy, the perfect strategy is one that works for you and your situation. Your money is your responsibility and no one knows how to handle it better than you. There's always risk and reward in every action, study well. However, you can rest assure that we are experiencing a major disruption in the financial sector. I'm happy that power is returning back to the people where it belongs. With that, let's push forward towards one of the brightest futures I've seen in a long time.",
     "I am personally inviting you to explore DeFi and connect with me. Please find me on Discord and let's having meaningful conversations. Cheers.",
   ];
@@ -214,6 +229,10 @@ export default function globals() {
         {
           name: 'Coinbase',
           link: 'https://www.coinbase.com/join/hoang_99',
+        },
+        {
+          name: 'Figment.io (Learn to earn)',
+          link: 'https://figment.io/learn-the-web-3-knowledge-base/',
         },
       ],
     },

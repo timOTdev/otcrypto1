@@ -4,9 +4,9 @@ import globals from '../../data/index';
 const Main = styled.main`
   background: linear-gradient(
     0deg,
-    var(--horses) 45%,
-    var(--desert) 49%,
-    var(--horses) 58%
+    var(--horses) 42%,
+    var(--desert) 46%,
+    var(--horses) 55%
   );
 `;
 const Section = styled.section`
